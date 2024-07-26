@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Prata&family=Prompt:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font  -->
+    <!-- mobile menu  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!-- mobile menu  -->
+    <!-- swiper script  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>skinvia</title>
+    <!-- mobile menu script  -->
+    <link rel="stylesheet" href="./output/output.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </head>
+  <body>
+    <!-- nav bar start -->
+    <nav>
+      <div class="bg-[#D9D9D9]">
+        <div class="mx-auto h-full max-w-7xl">
+          <div class="flex items-center justify-between">
+            <img class="h-20 w-48 hidden sm:block" src="./image/logo.png" />
+            <div class="sm:block hidden">
+              <ul
+                class="flex font-Inter justify-center gap-6 md:flex md:items-center"
+              >
+                <li class="mx-4 my-6">
+                  <a
+                    href="#home"
+                    class="active text-2xl font-medium font- uppercase text-[#BF6159] font-sans"
+                    >home</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a
+                    href="#projucts"
+                    class="active uppercase text-2xl font-medium hover:font-medium text-black hover:text-[#BF6159]"
+                    >products</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a
+                    href="#about"
+                    class="active text hover:font-medium uppercase text-2xl text-black hover:text-[#BF6159]"
+                    >about</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a href="#" class="h-8 w-8"
+                    ><img src="./image/icons/search.png" alt="search icon"
+                  /></a>
+                </li>
+                <li class="mx-4 my-6">
+                  <a href="#" class="h-8 w-8"
+                    ><img src="./image/icons/shopping.png" alt="shopping icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="sm:hidden font-Inter flex flex-wrap items-center justify-between mx-auto pr-4 pl-4 pb-2 sm:pb-0"
+      >
+        <img class="h-14 w-14 sm:hidden" src="./image/logo.png" alt="" />
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- body start -->
+    <div class="mx-auto h-full max-w-7xl pt-20">
+      <div class="flex gap-6">
+        <div class="flex flex-col w-3/4">
+          <div class="pb-6">
+            <div class="flex pb-32">
+              <h2 class="pr-10 text-[#17183B] text-2xl font-Poppins font-bold">
+                Address
+              </h2>
+              <img class="pr-10" src="./image/icons/arrow2.png" />
+              <h2 class="pr-10 text-[#A2A3B1] text-2xl font-Poppins font-bold">
+                Shipping
+              </h2>
+              <img class="pr-10" src="./image/icons/arrow2.png" />
+              <h2 class="text-[#A2A3B1] text-2xl font-Poppins font-bold">
+                Payment
+              </h2>
+            </div>
+
+            <div class="flex items-center border pt-4 pb-4">
+              <input type="radio" class="bg-[#3AA39F]" />
+              <h3
+                class="text-[#17183B] text-base font-Prompt font-semibold pl-3 pr-3"
+              >
+                Free
+              </h3>
+              <h5 class="text-[#17183B] text-base font-Prompt font-normal">
+                Regular Shipment
+              </h5>
+              <h3
+                class="text-[#17183B] text-base font-Prompt font-semibold pl-[380px]"
+              >
+                01 Feb, 2023
+              </h3>
+            </div>
+
+            <div class="flex items-center border pt-4 pb-4">
+              <input type="radio" class="" />
+              <h3
+                class="text-[#17183B] text-base font-Prompt font-semibold pl-3 pr-3"
+              >
+                $8.50
+              </h3>
+              <h5 class="text-[#17183B] text-base font-Prompt font-normal">
+                Priority Shipping
+              </h5>
+              <h3
+                class="text-[#17183B] text-base font-Prompt font-semibold pl-[380px]"
+              >
+                28 Jan, 2023
+              </h3>
+            </div>
+
+            <div class="flex items-center border pt-2 pb-2">
+              <input type="radio" class="" />
+              <h3
+                class="text-[#17183B] text-base font-Prompt font-semibold pl-3 pr-3"
+              >
+                Schedule
+              </h3>
+              <h5 class="text-[#17183B] text-base font-Prompt font-normal">
+                Choose a date that works for you.
+              </h5>
+              <input
+                class="border-none text-gray-400 pl-[170px]"
+                type="date"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="border pl-8 pr-8 pt-8 pb-8">
+          <h2 class="text-black text-2xl font-bold font-Prata">
+            Order Summary
+          </h2>
+          <div class="flex gap-3 items-center justify-between pb-6">
+            <p class="text-black text-base font-Poppins font-normal">Price</p>
+            <p class="text-black text-base font-Poppins font-normal">
+              Rs. 700/-
+            </p>
+          </div>
+          <div class="flex gap-3 items-center justify-between pb-6">
+            <p class="text-black text-base font-Poppins font-normal">
+              Discount
+            </p>
+            <p class="text-black text-base font-Poppins font-normal">Rs.42/-</p>
+          </div>
+          <div class="flex gap-3 items-center justify-between pb-6">
+            <p class="text-black text-base font-Poppins font-normal">
+              Shipping
+            </p>
+            <p class="text-[#3AA39F] text-base font-Poppins font-normal">
+              Free
+            </p>
+          </div>
+          <div class="flex gap-3 items-center justify-between pb-6">
+            <p class="text-black text-base font-Poppins font-normal">
+              Coupon Applied
+            </p>
+            <p class="text-black text-base font-Poppins font-normal">$0.00</p>
+          </div>
+          <img class="pb-6" src="./image/icons/Divider.png" />
+
+          <div class="flex gap-3 items-center pb-6">
+            <p class="text-black text-base font-Poppins font-normal">TOTAL</p>
+            <p class="text-black text-base font-Poppins font-semibold pl-48">
+              Rs. 658/-
+            </p>
+          </div>
+
+          <div class="flex gap-3 items-center justify-between pb-6">
+            <p class="text-black text-base font-Poppins font-normal">
+              Estimated Delivery by
+            </p>
+            <p class="text-black text-base font-Poppins font-semibold">
+              01 Feb, 2023
+            </p>
+          </div>
+
+          <div
+            class="flex gap-3 items-center justify-between border rounded-md"
+          >
+            <input
+              class="pt-4 pb-4 pl-4 pr-4 rounded-md text-[#A2A3B1] text-base font-Poppins font-normal w-[460px]"
+              placeholder="Coupon Code"
+            />
+            <img class="pr-4" src="./image/icons/cupon.png" />
+          </div>
+          <div class="pt-6">
+            <h5
+              class="pt-5 pb-5 text-center text-base font-Poppins font-normal text-white bg-[#BF6159]"
+            >
+              Proceed to Checkout
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

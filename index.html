@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Prata&family=Prompt:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font  -->
+    <!-- mobile menu  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!-- mobile menu  -->
+    <!-- swiper script  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>skinvia</title>
+    <!-- mobile menu script  -->
+    <link rel="stylesheet" href="./output/output.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </head>
+
+  <body>
+    <!-- nav bar start -->
+    <nav>
+      <div class="bg-[#D9D9D9]">
+        <div class="mx-auto h-full max-w-7xl p-2">
+          <div class="flex items-center justify-between">
+            <img class="h-20 w-48 hidden sm:block" src="./image/logo.png" />
+            <div class="sm:block hidden">
+              <ul
+                class="flex font-Inter justify-center gap-6 md:flex md:items-center"
+              >
+                <li class="mx-4 my-6">
+                  <a
+                    href="#home"
+                    class="active text-2xl font-medium font- uppercase text-[#BF6159] font-sans"
+                    >home</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a
+                    href="#projucts"
+                    class="active uppercase text-2xl font-medium hover:font-medium text-black hover:text-[#BF6159]"
+                    >products</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a
+                    href="#about"
+                    class="active text hover:font-medium uppercase text-2xl text-black hover:text-[#BF6159]"
+                    >about</a
+                  >
+                </li>
+                <li class="mx-4 my-6">
+                  <a href="#" class="h-8 w-8"
+                    ><img src="./image/icons/search.png" alt="search icon"
+                  /></a>
+                </li>
+                <li class="mx-4 my-6">
+                  <a href="#" class="h-8 w-8"
+                    ><img src="./image/icons/shopping.png" alt="shopping icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="sm:hidden font-Inter flex flex-wrap items-center justify-between mx-auto pr-4 pl-4 pb-2 sm:pb-0"
+      >
+        <img class="h-14 w-14 sm:hidden" src="./image/logo.png" alt="" />
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- hero section start  -->
+    <section id="home">
+      <div class="mx-auto h-full max-w-7xl px-4">
+        <div class="grid grid-cols-2 items-center gap-10 h-full">
+          <div>
+            <h2
+              class="text-[#BF6159] font-Prata font-normal text-[59px] leading-none pb-4"
+            >
+              Care For Your Skin, Care For Your Beauty
+            </h2>
+            <p
+              class="text-[#5F5A56] font-Prompt font-normal text-[29px] leading-snug pb-6"
+            >
+              Our skin care clinic best dermatologists in Lahore and Islamabad
+              offer premium aesthetics.
+            </p>
+            <div class="flex gap-8">
+              <button
+                class="rounded-2xl bg-[#BF6159] w-[289px] h-[62px] text-white text-3xl font-normal font-Poppins"
+              >
+                <a href="#">Read more</a>
+              </button>
+              <a href="#"
+                ><img class="h-16 w-16" src="./image/icons/play.png" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div>
+            <img class="h-[600px] w-[600px]" src="./image/hero.png" alt="" />
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+    </section>
+    <!-- hero section End -->
+
+    <!-- product section -->
+    <section id="projucts" class="pt-20">
+      <div class="mx-auto h-full max-w-7xl px-4 py-2">
+        <div>
+          <h2
+            class="font-Prata font-normal text-5xl text-[#BF6159] tracking-widest justify-center text-center"
+          >
+            Shop by Skin Concerns
+          </h2>
+          <div #swiperRef="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Ubtan Facial
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Brightening Facial
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Night Beauty
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Acne Mask
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Night Beauty
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./image/firstcard .png" />
+                  <h3
+                    class="text-[#5F5A56] font-Poppins text-3xl font-normal pl-20"
+                  >
+                    Brightening Facial
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+
+        <div>
+          <h2
+            class="font-Prata font-normal text-5xl text-[#BF6159] tracking-widest text-center pt-16 pb-16"
+          >
+            Shop by Categories
+          </h2>
+
+          <div class="grid grid-cols-6 gap-3">
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1deg]"
+                src="./image/Ellipse 4.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal pl-3">
+                Cleansers
+              </h3>
+            </div>
+
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1.012deg]"
+                src="./image/Ellipse 3.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal pl-7">
+                Toners
+              </h3>
+            </div>
+
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1.012deg]"
+                src="./image/Ellipse 5.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal pl-6">
+                Serums
+              </h3>
+            </div>
+
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1.012deg]"
+                src="./image/Ellipse 6.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal pl-6">
+                Moisturizer
+              </h3>
+            </div>
+
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1.012deg]"
+                src="./image/Ellipse 8.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal">
+                Acne treatment
+              </h3>
+            </div>
+
+            <div>
+              <img
+                class="h-40 w-40 rotate-[-1.012deg]"
+                src="./image/Ellipse 7.png"
+              />
+              <h3 class="text-[#5F5A56] text-2xl font-Poppins font-normal pl-6">
+                Sun screen
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 pt-10 pb-10">
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="border-2 border-[#CC857F] p-4">
+            <h2
+              class="text-[#CC857F] font-Prompt text-3xl font-normal capitalize text-center"
+            >
+              Lorem ipsum Dolor
+            </h2>
+            <p
+              class="text-[#CC857F] text-base font-normal font-Prompt capitalize text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <img src="./image/firstcard .png" />
+            <div class="text-center pt-4">
+              <button
+                class="bg-[#CC857F] rounded-full text-white text-xs font-Prompt font-bold capitalize pl-6 pr-6 pt-2 pb-2"
+              >
+                <a href="#">Add To Cart</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- about us start  -->
+    <section id="about">
+      <div class="mx-auto h-full max-w-7xl px-4 py-2">
+        <div class="flex pb-20 pt-20">
+          <div class="flex flex-col justify-center">
+            <h3
+              class="text-[#BF6159] font-Prompt text-3xl font-bold pt-28 pb-14"
+            >
+              ABOUT US
+            </h3>
+            <h1 class="text-[#BF6159] font-Prata text-6xl font-normal pb-8">
+              DISCOVER A SKINVIAFLAGSHIP
+            </h1>
+            <p class="text-[#5F5A56] font-Prompt text-3xl font-normal">
+              FIND YOUR IDEAL COMBINATION OF IN-OFFICE TREATMENTS &SKINCARE
+              REGIMENS.
+            </p>
+            <div class="flex items-center pt-3">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-bold">
+                <a href="#">Read more</a>
+              </button>
+              <div class="pl-3 pt-2">
+                <button>
+                  <a href="#"> <img src="./image/icons/arrow.png" /></a>
+                </button>
+                <button>
+                  <a href="#"> <img src="./image/icons/arrow.png" /></a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="h-[650px] w-[1400px]" src="./image/image 39.png" />
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-7 pt-8">
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img class="w-[334px] h-80" src="./image/image 40.png" />
+            <h3
+              class="text-[#5F5A56] max-w-[274px] text-center font-Prompt text-3xl font-normal capitalize"
+            >
+              Lorem ipsum dolor sit amet
+            </h3>
+            <div class="flex gap-3 pt-3 pl-16">
+              <button class="text-[#BF6159] font-Prompt text-2xl font-normal">
+                <a href="#">Read More</a>
+              </button>
+              <button class="pt-1">
+                <a href="#"><img src="./image/icons/arrow.png" /></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us end  -->
+    <!-- part 7  -->
+    <section class="bg-[#D9D9D9] pb-6">
+      <div class="mx-auto h-full max-w-7xl px-4 py-2 pt-20">
+        <div class="grid grid-rows-3 gap-16">
+          <div class="flex items-center gap-14">
+            <img
+              class="border-2 border-[#CC857F] p-2"
+              src="./image/firstcard .png"
+            />
+            <div>
+              <h2
+                class="text-[#CC857F] font-Prompt text-4xl font-normal capitalize w-[305px]"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <p class="text-[#5F5A56] font-Prompt font-normal text-2xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="flex gap-3 pt-3">
+                <button
+                  class="text-[#CC857F] font-Prompt font-bold text-base capitalize"
+                >
+                  <a href="#">Add to Cart</a>
+                </button>
+                <button class="">
+                  <a href="#"><img src="./image/icons/arrow.png" alt="" /></a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-14">
+            <div class="flex flex-col items-end">
+              <h2
+                class="text-[#CC857F] font-Prompt text-right text-4xl font-normal capitalize w-[305px]"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <p
+                class="text-[#5F5A56] font-Prompt text-right font-normal text-2xl"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="flex gap-3 pt-3">
+                <button
+                  class="text-[#CC857F] font-Prompt font-bold text-base capitalize"
+                >
+                  <a href="#">Add to Cart</a>
+                </button>
+                <button class="">
+                  <a href="#"><img src="./image/icons/arrow.png" alt="" /></a>
+                </button>
+              </div>
+            </div>
+            <img
+              class="border-2 border-[#CC857F] p-2"
+              src="./image/firstcard .png"
+            />
+          </div>
+
+          <div class="flex items-center gap-24">
+            <img
+              class="border-2 border-[#CC857F] p-2"
+              src="./image/firstcard .png"
+            />
+            <div>
+              <h2
+                class="text-[#CC857F] font-Prompt text-4xl font-normal capitalize w-[305px]"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <p class="text-[#5F5A56] font-Prompt font-normal text-2xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="flex gap-3 pt-3">
+                <button
+                  class="text-[#CC857F] font-Prompt font-bold text-base capitalize"
+                >
+                  <a href="#">Add to Cart</a>
+                </button>
+                <button class="">
+                  <a href="#"><img src="./image/icons/arrow.png" alt="" /></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- part 7 End -->
+
+    <!-- part 8 start-->
+    <section>
+      <div class="mx-auto h-full max-w-7xl px-4 py-2 pt-20">
+        <div class="flex items-center gap-14">
+          <div class="flex flex-col items-end">
+            <h2
+              class="text-[#CC857F] font-Prompt text-4xl font-normal capitalize w-[305px] text-right"
+            >
+              Lorem ipsum dolor sit amet
+            </h2>
+            <p
+              class="text-[#5F5A56] font-Prompt text-right font-normal text-2xl"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+            <div class="flex gap-3 pt-3">
+              <a
+                class="text-[#CC857F] font-Prompt font-bold text-base capitalize"
+                href="#"
+                >Add to Cart</a
+              >
+              <a href="#"><img src="./image/icons/arrow.png" alt="" /></a>
+            </div>
+          </div>
+          <img
+            class="border-2 border-[#CC857F] p-2"
+            src="./image/firstcard .png"
+          />
+        </div>
+
+        <div class="flex items-center pb-16">
+          <img src="./image/Rectangle 55.png" />
+          <div class="">
+            <h2
+              class="text-[#CC857F] text-4xl font-Prata font-normal capitalizes max-w-[380px]"
+            >
+              Lorem ipsum dolor sit amet
+            </h2>
+            <p
+              class="text-[#5F5A56] text-xl font-normal font-Prompt capitalize pt-3"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+            <div class="flex gap-3 pt-24">
+              <a
+                class="text-[#CC857F] text-[28px] font-Prompt font-bold capitalize"
+                href="#"
+                >Read More</a
+              >
+              <a class="pt-4" href="#"
+                ><img src="./image/icons/arrow.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- part 8 end -->
+
+    <!-- part 9 start-->
+    <section>
+      <div class="mx-auto h-full max-w-4xl px-4 py-2 pt-20">
+        <h2
+          class="text-[#CC857F] text-5xl font-Prata font-normal text-center pb-14"
+        >
+          Lorem ipsum dolor sit amet
+        </h2>
+
+        <div class="grid grid-cols-2 gap-5">
+          <div class="flex flex-row gap-4">
+            <img class="w-16 h-16" src="./image/icons/fill.png" />
+            <p class="text-[#5F5A56] text-xl font-normal font-Prompt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="flex flex-row gap-4">
+            <img class="w-16 h-16" src="./image/icons/fill.png" />
+            <p class="text-[#5F5A56] text-xl font-normal font-Prompt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="flex flex-row gap-4">
+            <img class="w-16 h-16" src="./image/icons/fill.png" />
+            <p class="text-[#5F5A56] text-xl font-normal font-Prompt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="flex flex-row gap-4">
+            <img class="w-16 h-16" src="./image/icons/fill.png" />
+            <p class="text-[#5F5A56] text-xl font-normal font-Prompt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mx-auto h-full max-w-7xl px-4 py-2 pt-20">
+        <div class="flex items-center pb-10 pt-14 gap-16">
+          <img src="./image/Rectangle 20.png" />
+          <div class="">
+            <h2
+              class="text-[#CC857F] text-4xl font-Prata font-normal capitalizes max-w-[380px]"
+            >
+              Lorem ipsum dolor sit amet
+            </h2>
+            <p
+              class="text-[#5F5A56] text-2xl font-normal font-Prompt capitalize pt-3"
+            >
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- part 9 end -->
+
+    <!-- part 10 start-->
+    <section>
+      <div class="mx-auto h-full max-w-7xl px-4 py-2 pt-20">
+        <div class="flex items-center pb-10 pt-14 gap-16">
+          <div class="">
+            <h2
+              class="text-[#CC857F] text-4xl font-Prata font-normal capitalizes max-w-[380px]"
+            >
+              Lorem ipsum dolor sit amet
+            </h2>
+            <p
+              class="text-[#5F5A56] text-2xl font-normal font-Prompt capitalize pt-3"
+            >
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
+          <img src="./image/Rectangle 20.png" />
+        </div>
+
+        <div class="grid grid-cols-5">
+          <div>
+            <img
+              class="w-56 h-56 border-[#CC857F] border-4"
+              src="./image/firstcard2 .png"
+            />
+            <div>
+              <h2
+                class="text-[#5F5A56] text-2xl font-Prata font-normal capitalize"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <h3 class="text-[#5F5A56] text-xl font-normal font-Prompt">
+                03/12/12
+              </h3>
+              <div class="flex gap-2">
+                <a
+                  class="text-[#CC857F] text-xl font-Prompt font-semibold capitalize"
+                  href="#"
+                  >Read more</a
+                >
+                <a href="#">
+                  <img class="pt-2" src="./image/icons/arrow.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-56 h-56 border-[#CC857F] border-4"
+              src="./image/firstcard2 .png"
+            />
+            <div>
+              <h2
+                class="text-[#5F5A56] text-2xl font-Prata font-normal capitalize"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <h3 class="text-[#5F5A56] text-xl font-normal font-Prompt">
+                03/12/12
+              </h3>
+              <div class="flex gap-2">
+                <a
+                  class="text-[#CC857F] text-xl font-Prompt font-semibold capitalize"
+                  href="#"
+                  >Read more</a
+                >
+                <a href="#">
+                  <img class="pt-2" src="./image/icons/arrow.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-56 h-56 border-[#CC857F] border-4"
+              src="./image/firstcard2 .png"
+            />
+            <div>
+              <h2
+                class="text-[#5F5A56] text-2xl font-Prata font-normal capitalize"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <h3 class="text-[#5F5A56] text-xl font-normal font-Prompt">
+                03/12/12
+              </h3>
+              <div class="flex gap-2">
+                <a
+                  class="text-[#CC857F] text-xl font-Prompt font-semibold capitalize"
+                  href="#"
+                  >Read more</a
+                >
+                <a href="#">
+                  <img class="pt-2" src="./image/icons/arrow.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-56 h-56 border-[#CC857F] border-4"
+              src="./image/firstcard2 .png"
+            />
+            <div>
+              <h2
+                class="text-[#5F5A56] text-2xl font-Prata font-normal capitalize"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <h3 class="text-[#5F5A56] text-xl font-normal font-Prompt">
+                03/12/12
+              </h3>
+              <div class="flex gap-2">
+                <a
+                  class="text-[#CC857F] text-xl font-Prompt font-semibold capitalize"
+                  href="#"
+                  >Read more</a
+                >
+                <a href="#">
+                  <img class="pt-2" src="./image/icons/arrow.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="w-56 h-56 border-[#CC857F] border-4"
+              src="./image/firstcard2 .png"
+            />
+            <div>
+              <h2
+                class="text-[#5F5A56] text-2xl font-Prata font-normal capitalize"
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              <h3 class="text-[#5F5A56] text-xl font-normal font-Prompt">
+                03/12/12
+              </h3>
+              <div class="flex gap-2">
+                <a
+                  class="text-[#CC857F] text-xl font-Prompt font-semibold capitalize"
+                  href="#"
+                  >Read more</a
+                >
+                <a href="#">
+                  <img class="pt-2" src="./image/icons/arrow.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- part 10 end -->
+
+    <footer class="bg-[#D9D9D9]">
+      <div class="mx-auto h-full max-w-7xl px-4 py-2 pt-20 pb-10">
+        <div class="flex justify-between">
+          <div>
+            <div>
+              <ul>
+                <li class="text-[#5F5A56] text-2xl font-Prompt font-normal">
+                  Information
+                </li>
+                <li class="text-[#5F5A56] text-base font-Prompt font-normal">
+                  About Us
+                </li>
+                <li class="text-[#5F5A56] text-base font-Prompt font-normal">
+                  Terms & condition
+                </li>
+                <li class="text-[#5F5A56] text-base font-Prompt font-normal">
+                  Track Your Order
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-[#5F5A56] text-base font-Prompt font-normal">
+                Contact Us:
+              </h3>
+              <div class="flex items-center gap-4">
+                <a class="h-4 w-4" href="#"
+                  ><img src="./image/icons/phone.png"
+                /></a>
+                <a
+                  class="text-[#5F5A56] text-base font-Prompt font-normal"
+                  href="#"
+                  ><h5>+92 321 3333 333</h5></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="text-[#5F5A56] text-2xl font-Prompt font-normal">
+              Stay Connected
+            </h2>
+            <div class="flex gap-4">
+              <a href="#"
+                ><img class="h-8 w-4" src="./image/icons/facebook.png"
+              /></a>
+              <a href="#"
+                ><img class="h-8 w-8" src="./image/icons/instagram.png"
+              /></a>
+
+              <div class="flex flex-col gap-1">
+                <a href="#"
+                  ><p class="text-[#5F5A56] text-xs font-Prompt font-normal">
+                    LIKE US ON FACEBOOK
+                  </p></a
+                >
+                <div class="flex gap-1">
+                  <a href="#"
+                    ><img class="w-6 h-6" src="./image/icons/love.png"
+                  /></a>
+                  <a href="#"
+                    ><img class="w-6 h-6" src="./image/icons/share.png"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <h2
+                  class="text-[#5F5A56] text-base font-Prompt font-normal pt-8"
+                >
+                  SIGN UP FOR OUR NEWSLETTER
+                </h2>
+                <div>
+                  <input
+                    type="text"
+                    name="enter your email address"
+                    placeholder="enter your email address"
+                  />
+                  <button
+                    class="bg-[#5F5A56] bor pl-6 pr-6 pt-2 pb-2 text-[#F5F5F5] text-xs font-Prompt font-normal"
+                  >
+                    submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- mobile menu  js codes -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
